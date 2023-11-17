@@ -13,6 +13,7 @@ const CharactersCard = ({ data }) => {
             />
           )}
           <p className="card-title">{character.name}</p>
+          <p>{character.description}</p>
         </div>
       ))}
     </div>
