@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flux {
+  margin: 0 200px;
+}
+
+.header-container img {
+  width: 15%;
+}
+
+.header-container ul {
+  display: flex;
+  gap: 10px;
+}
