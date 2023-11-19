@@ -15,3 +15,13 @@
 .card img {
   width: 100%;
 }
+
+input {
+  width: 300px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}

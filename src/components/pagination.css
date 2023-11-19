@@ -1,12 +1,10 @@
 .pagination {
-  border: solid 2px green;
   display: flex;
   justify-content: center;
   position: fixed;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  /* Ajoutez d'autres styles selon vos préférences */
   background-color: #fff;
   padding: 10px;
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
