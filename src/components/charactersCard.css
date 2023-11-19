@@ -1,10 +1,14 @@
-.card-container {
+.cards-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .card {
   border: solid 2px red;
   width: 15%;
+
   text-align: center;
 }
 

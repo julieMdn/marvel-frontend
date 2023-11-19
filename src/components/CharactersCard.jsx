@@ -4,7 +4,7 @@ import "./charactersCard.css";
 const CharactersCard = ({ data }) => {
   return (
     <div className="cards-container">
-      {data.results.map((character) => (
+      {data.map((character) => (
         <div className="card" key={character._id}>
           {character.thumbnail && (
             <img
