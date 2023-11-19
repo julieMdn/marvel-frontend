@@ -7,13 +7,15 @@ const Header = () => {
     <div className="header-container flux">
       <img src={logoMarvel} alt="logo-marvel" />
       <ul>
-        <Link to="/">
+        <Link className="link" to="/">
           <li>Personnages</li>
         </Link>
-        <Link to="/comics">
+        <Link className="link" to="/comics">
           <li>Comics</li>
         </Link>
-        <li>Favoris</li>
+        <Link className="link" to="#">
+          <li>Favoris</li>
+        </Link>
       </ul>
     </div>
   );
