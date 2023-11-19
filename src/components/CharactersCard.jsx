@@ -18,7 +18,7 @@ const CharactersCard = ({ data }) => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-      <div className="cards-container">
+      <div className="cards-container flux">
         {filteredCharacters.map((character) => (
           <div className="card" key={character._id}>
             {character.thumbnail && (
