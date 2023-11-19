@@ -4,10 +4,10 @@ import "./comicsCard.css";
 const ComicsCard = ({ data }) => {
   // Trier les comics par le deuxième mot dans le titre
   const sortedComics = data.results.sort((a, b) => {
-    const titleA = a.title.split(" ")[1]; // Récupérer le deuxième mot du titre de comic a
-    const titleB = b.title.split(" ")[1]; // Récupérer le deuxième mot du titre de comic b
+    const titleA = a.title.split(" ")[1];
+    const titleB = b.title.split(" ")[1];
 
-    return titleA.localeCompare(titleB); // Comparer les deuxième mots et trier en conséquence
+    return titleA.localeCompare(titleB);
   });
 
   return (
